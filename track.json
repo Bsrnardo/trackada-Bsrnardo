@@ -1,0 +1,32 @@
+{
+  "projects": [
+    {
+      "name": "adapage",
+      "required": ["index.html", "style.css"]
+    },
+    {
+      "name": "trackada",
+      "required": ["checktrack.js", "track.json"]
+    },
+    {
+      "name": "adaquiz",
+      "required": ["index.html", "index.js", "questions.json"]
+    },
+    {
+      "name": "adalgo",
+      "required": ["index.js"]
+    },
+    {
+      "name": "adataviz",
+      "required": ["index.html", "main.js", "style.css"]
+    },
+    {
+      "name": "adatabase",
+      "required": ["index.js"]
+    },
+    {
+      "name": "adapi",
+      "required": ["index.js"]
+    }
+  ]
+}
