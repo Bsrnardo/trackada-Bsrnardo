@@ -1,6 +1,6 @@
 import { readFileSync, existsSync } from "node:fs"
-import { join } from "path"
-import { homedir } from "os"
+import { join } from "node:path"
+import { homedir } from "node:os"
 
 // Charger et parser le fichier JSON
 const track = JSON.parse(readFileSync("track.json", "utf-8"));
